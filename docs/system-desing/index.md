@@ -10,4 +10,4 @@ My digital laboratory for mastering system design through Practice in multiple l
     * [Subsection 1.2: License](../LICENSE.md)
   
 * [Section 2: system Degign 101](./index.md)
-    * [Subsection 2.1: Crud app with rest api](./crud-app/README.md)
+    * [Subsection 2.1: URL Shortener ](./URL Shortener/README.md)

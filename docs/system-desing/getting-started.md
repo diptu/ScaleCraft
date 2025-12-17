@@ -1,6 +1,6 @@
 # Getting Started 
 
-Welcome to the `system-design-multilang` repository! This project aims to provide practical examples and exercises for learning and practicing system design concepts using various programming languages.
+Welcome to the `ScaleCraft` repository! This project aims to provide practical examples and exercises for learning and practicing system design concepts using various programming languages.
 
 ## Repository Structure
 

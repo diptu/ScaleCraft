@@ -1,30 +1,26 @@
 # Project information
 site_name: system-design-multilang
-site_url: https://github.com/diptu/system-design-multilang
+site_url: https://github.com/diptu/ScaleCraft/
 site_author: Nazmul Alam
 site_description: >-
   My digital laboratory for mastering system Design through regular practice in multiple programming language.
 
 # Repository
 repo_name: diptu/system-design-multilang
-repo_url: https://github.com/diptu/system-design-multilang
+repo_url: https://github.com/diptu/ScaleCraft/
 
 # Copyright
 copyright: Copyright &copy; 2025 - 2025 Nazmul Alam
 
 # Configuration
 theme:
-  # name: material
-  name: readthedocs
-
+  name: material
   palette: 
-
     # Palette toggle for light mode
     - scheme: default
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
@@ -33,29 +29,36 @@ theme:
   features:
     - content.code.annotate
     - content.code.copy
+    - navigation.tabs
+    - content.tabs.link
+
 markdown_extensions:
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-  - admonition
-  - pymdownx.details
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - toc:
+      permalink: true
+      toc_depth: 3
 
 # Page tree
 nav:
