@@ -1,6 +1,5 @@
 ---
-id: v1
-title: V1 Specification
+title: URL Shortener
 sidebar_position: 1
 ---
 

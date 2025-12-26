@@ -3,7 +3,7 @@ id: api
 title: API Specification
 sidebar_position: 2
 ---
-
+<img src="/img/api_spec.png" alt="API Spec" width="400"  height="300"  />
 # 🔌 API Specification
 
 This document defines the **public REST API** for the URL Shortener system.
