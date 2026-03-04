@@ -1,0 +1,30 @@
+{
+  "name": "url_shortner_api",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "nazmulalam",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./dist/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.4",
+    "nanoid": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/mongoose": "^5.11.96",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
